@@ -1,12 +1,14 @@
-package com.algonquin.recipebook.model;
+package org.ac.cst8277.belmokhtar.anas.model;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Message {
     private int messageId;
     private String messageName;
     private String messageContent;
+
+    public Message(){
+
+    }
 
     public int getMessageId() {
         return messageId;
